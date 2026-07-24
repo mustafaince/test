@@ -1,0 +1,52 @@
+@use "variables";
+
+.container{
+    padding: 0 1.4rem;
+}
+
+// buttons
+%btn-shared {
+    display: inline-block;
+    padding: .7rem 2rem;
+    transition: all .5s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    &-primary {
+        @extend %btn-shared;
+        color: #333;
+        background-color: variables.$primary-color;
+    }
+    &-light {
+        @extend %btn-shared;
+        color: #333;
+        background-color: variables.$light-color;
+    }
+    &-dark {
+        @extend %btn-shared;
+        color: #fff;
+        background-color: variables.$dark-color;
+    }
+}
+
+.btn:hover{
+    background: variables.$primary-color;
+}
+
+.my {
+    &-1 {
+        margin: 1rem 0;
+    }
+    &-2 {
+        margin: 2rem 0;
+    }
+    &-3 {
+        margin: 3rem 0;
+    }
+    &-4 {
+        margin: 4rem 0;
+    }
+}
+
