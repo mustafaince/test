@@ -59,4 +59,8 @@
         display: block;
         text-align: center;
     }
+
+    & a:hover{
+        background: variables.$primary-color;
+    }
 }

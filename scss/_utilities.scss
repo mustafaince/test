@@ -2,6 +2,8 @@
 
 .container{
     padding: 0 1.4rem;
+    max-width: 1200px;
+    margin: auto;
 }
 
 // buttons
@@ -35,6 +37,21 @@
     background: variables.$primary-color;
 }
 
+.py {
+    &-1 {
+        padding: 1rem 0;
+    }
+    &-2 {
+        padding: 2rem 0;
+    }
+    &-3 {
+        padding: 3rem 0;
+    }
+    &-4 {
+        padding: 4rem 0;
+    }
+}
+
 .my {
     &-1 {
         margin: 1rem 0;
@@ -50,3 +67,26 @@
     }
 }
 
+.section-title{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+.border-bottom {
+    margin: 0 auto 1rem auto;
+    background-color: variables.$primary-color;
+    width: 3rem;
+    height: 3px;
+}
+
+.lead{
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
