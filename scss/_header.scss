@@ -1,9 +1,21 @@
 @use "variables";
 
-#header__home{
-    background: variables.$bg-image center right / cover;
-    height: 100vh;
+#header__ {
+    &home {
+        background: variables.$bg-image center right / cover;
+        height: 100vh;
+    }
+
+    &inner {
+        background: variables.$bg-image no-repeat 40% 20% / cover;
+        height: 5.5rem;
+        border-bottom: 3px solid variables.$primary-color;
+    }
 }
+
+
+
+
 
 .main-nav {
     display: flex;

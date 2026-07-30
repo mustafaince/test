@@ -11,42 +11,34 @@
 </head>
 <body>
     <!-- header -->
-    <header id="header__home">
+    <header id="header__inner">
         <div class="container">
             <nav class="main-nav">
-                <img class="main-nav__logo" src="img/logo.png" alt="" id="">
+                <img src="img/logo.png" alt="" class="main-nav__logo">
                 <ul class="main-nav__items">
-                    <li><a href="index.html">home</a></li>
-                    <li><a class="active" href="about.html">about</a></li>
-                    <li><a href="projects.html">projects</a></li>
-                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <div class="header-content">
-                <h1>
-                    I'm John Anderson
-                    <span  class="typewrite" data-period="1000" data-type='["Developer","Designer","Freelancer"]'></span>
-                </h1>
-                <a class="btn-light my-2 animate__animated animate__swing" href="index.html">View My Profile</a>
-            </div>
         </div>
     </header>
 
-    <!-- footer -->
-    <footer id="main-footer">
-        <div class="footer-content container">
-            <p>Copyright &copy; 2025. All Rights Reserved.</p>
-
-            <div class="social">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-youtube"></i>
+    <!-- section a -->
+    <section id="about-a" class="text-center py-2">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="border-bottom"></div>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iusto, quod nesciunt sit quisquam alias error debitis labore voluptatibus quibusdam!</p>
+            <div class="info">
+                <img src="img/about.jpeg" alt="" class="info__image">
+                <div class="info__bio">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi architecto temporibus sed dignissimos facere ex nesciunt cupiditate totam assumenda officiis perferendis, exercitationem voluptatum, iusto alias illum. Nemo optio eius quae.</p>
+                </div>
             </div>
         </div>
-    </footer>
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/type-writer.js"></script>
+    </section>
 </body>
 </html>

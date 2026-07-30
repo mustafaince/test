@@ -1,0 +1,12 @@
+@use "variables";
+
+#about-a{
+    .info{
+        display: flex;
+
+        img{
+            width: 35%;
+            aspect-ratio: 16/9;
+        }
+    }
+}
