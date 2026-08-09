@@ -2,11 +2,7 @@
 
 #about-a{
     .info{
-        display: flex;
-
-        img{
-            width: 35%;
-            aspect-ratio: 16/9;
-        }
+        display: grid;
+        grid-template-columns: 1fr 2fr;
     }
 }
