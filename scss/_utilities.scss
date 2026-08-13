@@ -90,3 +90,16 @@
 .text-center {
     text-align: center;
 }
+
+// background
+.bg {
+    &-dark {
+        background-color: variables.$dark-color;
+    }
+    &-primary {
+        background-color: variables.$primary-color;
+    }
+    &-light {
+        background-color: variables.$light-color;
+    }
+}
