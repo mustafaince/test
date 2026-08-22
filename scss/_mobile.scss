@@ -31,6 +31,12 @@
             grid-template-columns: repeat(2, 1fr);
         }
     }
+
+    #projects{
+        .items{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
 }
 
 // mobile
@@ -126,5 +132,41 @@
         }
     }
 
-    #
+    #projects{
+        .items{
+            grid-template-columns: 1fr;
+        }
+
+        .lead{
+            font-size: 1rem;
+        }
+    }
+
+    #contact-a{
+        .lead{
+            font-size: 1rem;
+        }
+
+        .form-fields{
+            grid-template-areas: "subject" "phone" "name" "email" "message" "button";
+        }
+    }
+
+    #contact-b{
+        .contact-info{
+            grid-template-columns: 1fr;
+
+            div{
+                margin-bottom: 1rem;
+                padding-bottom: 1rem;
+                border-bottom: 1px dashed #fff;
+            }
+
+            div:last-child{
+                margin-bottom: 0;
+                padding-bottom: 0;
+                border: none;
+            }
+        }
+    }
 }
